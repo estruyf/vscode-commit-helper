@@ -1,5 +1,5 @@
 import * as vscode from "vscode";
-import { getCommitCompletionItems } from "./utils";
+import { getCommitCompletionItems } from "../utils";
 
 export class MessageCompletionProvider
   implements vscode.CompletionItemProvider
