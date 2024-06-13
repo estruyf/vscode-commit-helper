@@ -8,7 +8,7 @@ import { showGitTagging } from "./commands";
 export function activate(context: vscode.ExtensionContext) {
   context.subscriptions.push(
     vscode.languages.registerCompletionItemProvider(
-      DocumentFilters,
+      "*",
       new MessageCompletionProvider(),
       "/"
     )
