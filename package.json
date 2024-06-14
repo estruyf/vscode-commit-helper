@@ -44,6 +44,7 @@
     "commands": [{
       "command": "commitHelper.showGitTagging",
       "title": "Show Git Tagging",
+      "category": "CommitHelper",
       "icon": {
         "light": "./assets/hash.light.svg",
         "dark": "./assets/hash.dark.svg"
