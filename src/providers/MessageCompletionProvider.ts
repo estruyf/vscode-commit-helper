@@ -23,7 +23,6 @@ export class MessageCompletionProvider
 
     const range = new vscode.Range(
       new vscode.Position(position.line, position.character - 1),
-      // position,
       position
     );
 
